@@ -21,7 +21,6 @@ const mobileNav = () => {
         link.addEventListener("click", () => {
             isMobileNavOpen = false;
             mobileNav.style.display = "none";
-            console.log(this);
             document.body.style.overflowY = "auto";
         });
     });
